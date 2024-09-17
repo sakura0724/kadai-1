@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+  color: #38b48b;
+}
+
+header,
+main,
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.nav-list {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.nav-list-item {
+  margin: 0 20px;
+  display: inline;
+  color: #fff;
+}
+
+main {
+  background-color: #ecfcdf;
+  padding: 10px 40px 40px 40px;
+}
+
+.introduction {
+  background-color: #ecfcdf;
+}
+
+.introduction-heading {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.Yuko-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.intro-box {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 0 10px;
+}
+
+.intro-text {
+  line-height: 40px;
+  display: flex;
+}
+
+.intro-text-heading {
+  width: 100px;
+  font-weight: bold;
+}
+
+.introduction-item {
+  list-style: none;
+}
+
+.icon {
+  padding-left: 100px;
+}
+
+.icon i {
+  margin: 0 20px 20px 0;
+}
+
+body {
+  background-color: #ecfcdf;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-text {
+  color: #fff;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    display: block;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .intro-box {
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+  }
+}
